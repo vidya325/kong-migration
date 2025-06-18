@@ -1,0 +1,1970 @@
+{
+  "data": [
+    {
+      "connect_timeout": 60000,
+      "created_at": 1740641947,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "01b53140-2b41-42b4-b0cd-809d6ade12f9",
+      "name": "claims-gwsvcs_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:claims-gwsvcs",
+        "claims-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:Death-Claim"
+      ],
+      "updated_at": 1749043974,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1712696352,
+      "enabled": true,
+      "host": "qa.rmd-calculation-service.zinnia.io",
+      "id": "05b3feae-9c15-45db-a60d-78bb0dc3b93b",
+      "name": "rmd-calculation_zinnia_qa",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:rmd-calculation",
+        "rmd-calculation_zinnia_qa",
+        "qa"
+      ],
+      "updated_at": 1712696352,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1726494462,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "05d2a323-b90c-4cc9-9bfc-5315e14c773a",
+      "name": "otp-nonfinacial-gwsvcs_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:otp-nonfinacial-gwsvcs",
+        "otp-nonfinacial-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:BPM-Backend-for-Non-financial-Service"
+      ],
+      "updated_at": 1749727488,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-webhook-int.se2.com",
+      "id": "0727308f-59d1-4b18-aa7e-66a266114027",
+      "name": "webhook-gwsvcs_zinnia_dev",
+      "path": "/v1",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "webhook-gwsvcs_zinnia_dev",
+        "_KonnectService:webhook-gwsvcs"
+      ],
+      "updated_at": 1748247672,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1745411025,
+      "enabled": true,
+      "host": "iat.annuitynetapi.zinnia.com",
+      "id": "09e37563-ff4a-40aa-8693-a76010e40a59",
+      "name": "marketconnect-orderentry_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:marketconnect-orderentry",
+        "marketconnect-orderentry_zinnia_dev",
+        "dev",
+        "CatalogService:marketconnect-orderentry"
+      ],
+      "updated_at": 1745411025,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1700675364,
+      "enabled": true,
+      "host": "httpbin.org",
+      "id": "0b435f97-9509-4f6d-a188-1c9fae08757a",
+      "name": "carrier_mocking_demo",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "mock"
+      ],
+      "updated_at": 1700675364,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1704460913,
+      "enabled": true,
+      "host": "example.com",
+      "id": "0ce851c3-794b-47d6-821e-8c1eab8d1083",
+      "name": "example_zinnia_poc",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:example",
+        "example_zinnia_poc"
+      ],
+      "updated_at": 1704460913,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "t.decisioning.lexisnexisrisk.com",
+      "id": "0e08c565-b9f3-48ba-9c03-736676685f9d",
+      "name": "evidencevendor-outgwsvcs_lexisnexis_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 0,
+      "tags": [
+        "evidencevendor-outgwsvcs_zinnia_dev",
+        "_KonnectService:evidencevendor-outgwsvcs"
+      ],
+      "updated_at": 1677522487,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1739726557,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "0f13a064-669a-4b86-bd63-8d9dc1dbc7e4",
+      "name": "lead-management_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:lead-management",
+        "lead-management_zinnia_dev",
+        "dev",
+        "CatalogService:Lead-Management"
+      ],
+      "updated_at": 1739727212,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1737650939,
+      "enabled": true,
+      "host": "swizzle-api-kdefhm77na-uc.a.run.app",
+      "id": "15e2b3ec-0fbb-4f11-bda3-530125a80973",
+      "name": "producer_zinnia_prod",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:producer",
+        "producer_zinnia_prod",
+        "prod"
+      ],
+      "updated_at": 1737650939,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1735658816,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "1941adce-5aaf-44da-855c-3960f1d5a136",
+      "name": "otp-rule-engine_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:otp-rule-engine",
+        "otp-rule-engine_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1735658816,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 300000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-paclsvcs-int.se2.com",
+      "id": "1cff26ff-1871-4042-8c45-ce9e01d6fced",
+      "name": "pacl-gwsvcs_zinnia_dev",
+      "path": "/api/pmhc",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 300000,
+      "retries": 0,
+      "tags": [
+        "pacl-gwsvcs_zinnia_dev",
+        "_KonnectService:pacl-gwsvcs"
+      ],
+      "updated_at": 1678893627,
+      "write_timeout": 300000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1731429819,
+      "enabled": true,
+      "host": "internal-EDS-ALB-QA-2123052416.us-east-1.elb.amazonaws.com",
+      "id": "1ebd4947-b3d9-4ea7-9e54-b6b54e8a1c02",
+      "name": "enterprise-document_zinnia_qa",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:enterprise-document",
+        "enterprise-document_zinnia_qa",
+        "qa",
+        "CatalogService:Documents"
+      ],
+      "updated_at": 1742981392,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "httpbin.org",
+      "id": "1f515f7a-670c-4a3c-bf68-314902ec9422",
+      "name": "poc",
+      "path": "/anything",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "poc_zinnia_dev"
+      ],
+      "updated_at": 1675977729,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1678215688,
+      "enabled": true,
+      "host": "sandbox.api.giact.com",
+      "id": "202ed34d-6990-4161-96d2-52f23687244e",
+      "name": "giact.poc",
+      "path": "/verificationservices/web_api/inquiries_v5_9",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1678215699,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1737036094,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "20e3a661-e685-47b1-9594-5470c7044ad1",
+      "name": "marketconnect-poc_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:marketconnect-poc",
+        "marketconnect-poc_zinnia_dev",
+        "dev",
+        "CatalogService:MarketConnect-WIP"
+      ],
+      "updated_at": 1738182786,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1700160879,
+      "enabled": true,
+      "host": "3e6bf9460aea44079ac041f459b845e1.api.mockbin.io",
+      "id": "269f2603-aea8-4baa-b8ea-f0a0e9bc1513",
+      "name": "httpbin-test",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1714586587,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1746696176,
+      "enabled": true,
+      "host": "demo-bpm.zinnia.com",
+      "id": "27515739-9ffb-434b-9430-fadee082c9dd",
+      "name": "casemanager-gwsvc-demo_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:casemanager-gwsvc-demo",
+        "casemanager-gwsvc-demo_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Case-Management-Demo"
+      ],
+      "updated_at": 1747313850,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1742981368,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "2e646cb8-bab0-40de-9e53-0fd84e79e2dc",
+      "name": "zinnialive-chatbot-app_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:zinnialive-chatbot-app",
+        "zinnialive-chatbot-app_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Live-ChatBot-Application"
+      ],
+      "updated_at": 1742981368,
+      "write_timeout": 60000
+    },
+    {
+      "client_certificate": {
+        "id": "49828c71-b6fe-49e3-84e2-6fdfe6d359f0"
+      },
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-api-int.zinnia.com",
+      "id": "2f02073a-5a55-4841-9bb2-58a643475577",
+      "name": "pacl-outgwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "pacl-outgwsvcs_zinnia_dev",
+        "_KonnectService:pacl-outgwsvcs"
+      ],
+      "updated_at": 1677776096,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1741361504,
+      "enabled": true,
+      "host": "call-center-ai-solutions.dev.loyalty.life",
+      "id": "311f89cc-2c91-4205-abeb-701197b1314b",
+      "name": "call_center_ai_solutions_zinnia_dev",
+      "path": "/",
+      "port": 8080,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:call_center_ai_solutions",
+        "call_center_ai_solutions_zinnia_dev",
+        "dev",
+        "CatalogService:Call-Center-AI-Solutions"
+      ],
+      "updated_at": 1741361504,
+      "write_timeout": 60000
+    },
+    {
+      "ca_certificates": [
+        "85fb99de-3225-422a-9cd8-e1879a71408f"
+      ],
+      "client_certificate": {
+        "id": "95f755d2-944f-4148-abd3-496a8a83558a"
+      },
+      "connect_timeout": 30000,
+      "created_at": 1677668113,
+      "enabled": true,
+      "host": "api-test.delawarelife.com",
+      "id": "361ddd67-6976-43b5-be8b-379d43180a62",
+      "name": "dlic-outgwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "dlic-outgwsvcs_zinnia_dev",
+        "_KonnectService:dlic-outgwsvcs"
+      ],
+      "updated_at": 1677668113,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "api.delighted.com",
+      "id": "3900c452-4ee1-44e8-b4ab-da47a27ab1a3",
+      "name": "customersurvey-outgwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "customersurvey-outgwsvcs_zinnia_dev",
+        "_KonnectService:customersurvey-outgwsvcs"
+      ],
+      "updated_at": 1677521531,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1739312549,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "3b1ddb65-395d-492d-9582-0b207e23bf55",
+      "name": "new-business_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:new-business",
+        "new-business_zinnia_dev",
+        "dev",
+        "CatalogService:New-Business"
+      ],
+      "updated_at": 1746704461,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-nasusvcs-int.se2.com",
+      "id": "3bc40ffe-6134-4b1b-94f5-5cd4a2f1f5c8",
+      "name": "nasu-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "nasu-gwsvcs_zinnia_dev",
+        "_KonnectService:nasu-gwsvcs"
+      ],
+      "updated_at": 1677524982,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-everlysvcs-int.se2.com",
+      "id": "3d57fd02-0bd5-41ec-8890-434d7f6abfe4",
+      "name": "everly-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "everly-gwsvcs_zinnia_dev",
+        "_KonnectService:everly-gwsvcs"
+      ],
+      "updated_at": 1676312115,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1714514891,
+      "enabled": true,
+      "host": "product-rate-service.zinnia.io",
+      "id": "45de0884-698a-4039-8ba1-d2d71a7cf103",
+      "name": "product-rate_zinnia_prod",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:product-rate",
+        "product-rate_zinnia_prod",
+        "prod"
+      ],
+      "updated_at": 1714515299,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1712680426,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "4648bd4a-9c40-4f85-9a85-592c1c0a7f82",
+      "name": "consumer-experience-terms-and-conditions_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:consumer-experience-terms-and-conditions",
+        "consumer-experience-terms-and-conditions_zinnia_dev",
+        "dev",
+        "CatalogService:consumer-experience-terms-and-conditions"
+      ],
+      "updated_at": 1744846724,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1684957945,
+      "enabled": true,
+      "host": "v7ygz608ea.execute-api.us-east-1.amazonaws.com",
+      "id": "4a38625b-683d-441f-9762-928a144829c5",
+      "name": "Deploy-Service",
+      "path": "/dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "deploy"
+      ],
+      "updated_at": 1746123235,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1718207163,
+      "enabled": true,
+      "host": "dev-esbsvcs-int.se2.com",
+      "id": "4a5cfbfb-fa08-4203-9046-2e3426c5c46c",
+      "name": "uspsaddressvalidation-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:uspsaddressvalidation-gwsvcs",
+        "uspsaddressvalidation-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1718639235,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1716570813,
+      "enabled": true,
+      "host": "internal-documentsprivate-alb-497729846.us-east-1.elb.amazonaws.com",
+      "id": "4d70f8d6-d5d6-4dac-bc6b-9f5966e4a5ba",
+      "name": "documents-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:documents-gwsvcs",
+        "documents-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:name-of-the-service-in-kong-service-hub"
+      ],
+      "updated_at": 1746123343,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1676659998,
+      "enabled": true,
+      "host": "dev-esbsvcs.se2.com",
+      "id": "4fcbf23f-3923-471b-8e6a-058eeeb01ffd",
+      "name": "uq.everly",
+      "path": "/echoservice",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1676993591,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1727362299,
+      "enabled": true,
+      "host": "mcs-integration-qa.se2.com",
+      "id": "51f92569-f557-4d0e-8125-7c7e8e544987",
+      "name": "mcs_api_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:mcs_api",
+        "mcs_api_zinnia_dev",
+        "dev",
+        "CatalogService:MCS-Services"
+      ],
+      "updated_at": 1734090307,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-outgoing.apiservices.zinnia.com",
+      "id": "5910b9c4-edb3-4e03-9ccb-91a7b23e6efe",
+      "name": "zinnia-outbound_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "zinnia-outbound_zinnia_dev",
+        "_KonnectService:zinnia-outbound"
+      ],
+      "updated_at": 1677777240,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1710942418,
+      "enabled": true,
+      "host": "swizzle-api-73x2of4glq-uc.a.run.app",
+      "id": "59c1b5da-9762-4f3c-adf0-29c5c5743db3",
+      "name": "zinnia_swizzle_api_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:zinnia_swizzle_api",
+        "zinnia_swizzle_api_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1717774741,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1689182612,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "5bbacd14-a8d4-412d-96f0-7a6937f6a7f2",
+      "name": "otp-external-gwsvcs_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:otp-external-gwsvcs",
+        "otp-external-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:BPM-Backend-for-Integration-Service"
+      ],
+      "updated_at": 1749725844,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 180000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-sfsvcs-int.se2.com",
+      "id": "61b1dbb2-93a2-4b37-baa8-5045a258011a",
+      "name": "dlic-gwsvcs_zinnia_dev",
+      "path": "/api/casemanager",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 180000,
+      "retries": 0,
+      "tags": [
+        "dlic-gwsvcs_zinnia_dev",
+        "_KonnectService:dlic-gwsvcs"
+      ],
+      "updated_at": 1687967308,
+      "write_timeout": 180000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1737640782,
+      "enabled": true,
+      "host": "httpbin.org",
+      "id": "6373a802-1914-423e-a53f-b49d78239f9b",
+      "name": "test_service_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:test_service",
+        "test_service_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1737640782,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-esbsvcs.se2.com",
+      "id": "63bc7943-1994-40de-8706-45a630f77485",
+      "name": "plum-gwsvcs_zinnia_dev",
+      "path": "/api/plum/JHLI",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "plum-gwsvcs_zinnia_dev",
+        "_KonnectService:plum-gwsvcs"
+      ],
+      "updated_at": 1677585666,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1714512496,
+      "enabled": true,
+      "host": "qa.product-rate-service.zinnia.io",
+      "id": "675b3401-f097-4d3f-8601-ce6e6fb121f1",
+      "name": "product-rate_zinnia_qa",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:product-rate",
+        "product-rate_zinnia_qa",
+        "qa"
+      ],
+      "updated_at": 1714512496,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1703269514,
+      "enabled": true,
+      "host": "internal-fga-573592720.us-east-1.elb.amazonaws.com",
+      "id": "6ba44a32-0ba8-4c71-b1c7-aac256e73f9c",
+      "name": "ciam-fga_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:ciam-fga",
+        "ciam-fga_zinnia_dev",
+        "dev",
+        "CatalogService:FGA-Service"
+      ],
+      "updated_at": 1749736084,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1721245657,
+      "enabled": true,
+      "host": "example.com",
+      "id": "704e2ca3-2558-4fa6-b93a-09b96420835b",
+      "name": "policy_xml_ingest_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:policy_xml_ingest",
+        "policy_xml_ingest_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1721245657,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1716487152,
+      "enabled": true,
+      "host": "www.inf.fu-berlin.de",
+      "id": "716a24f5-76f5-40f6-9766-1cdafd037074",
+      "name": "xml-to-json-test",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "delete",
+        "test",
+        "temp",
+        "dev"
+      ],
+      "updated_at": 1716487358,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1717016521,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "71cf3f99-a9ba-48af-89e5-aba09a050788",
+      "name": "policies-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:policies-gwsvcs",
+        "policies-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:policies-gwsvcs"
+      ],
+      "updated_at": 1740417838,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1702498934,
+      "enabled": true,
+      "host": "setoplaunch01d.sbl.com",
+      "id": "7244f1c8-e646-4939-be99-c3807ac790c1",
+      "name": "orion-api_zinnia_dev",
+      "path": "/",
+      "port": 5014,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:orion-api",
+        "orion-api_zinnia_dev",
+        "dev",
+        "CatalogService:Orion-API"
+      ],
+      "updated_at": 1741359443,
+      "write_timeout": 60000
+    },
+    {
+      "ca_certificates": [
+        "b0f928f7-7e62-47fc-af77-56a4f1ca69a9",
+        "e4d986f9-19d4-4384-9d8f-3584e2f668b8"
+      ],
+      "client_certificate": {
+        "id": "40c466aa-91c6-4b02-88d3-8c7362fa167d"
+      },
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "apis-r-qa.massmutual.com",
+      "id": "7339e2f1-8df5-4a66-9acf-14c4a0828c85",
+      "name": "mm-outgwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "mm-outgwsvcs_zinnia_dev",
+        "_KonnectService:mm-outgwsvcs"
+      ],
+      "tls_verify": false,
+      "updated_at": 1706026051,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1712319660,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "767df42b-8f55-44a2-acc8-d393abbb6f18",
+      "name": "otp-chat-bot_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:otp-chat-bot",
+        "otp-chat-bot_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1735202392,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1741190992,
+      "enabled": true,
+      "host": "eds-dev.zinnia.com",
+      "id": "768afc97-5e4e-47ef-99b9-1099955677a6",
+      "name": "zmc-need-analysis_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:zmc-need-analysis",
+        "zmc-need-analysis_zinnia_dev",
+        "dev",
+        "CatalogService:ZMC-Need-Analysis"
+      ],
+      "updated_at": 1741238557,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1749216917,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "76daafe1-1ac8-4ff4-b1e5-ced11ae8ca55",
+      "name": "ciam-audit_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:ciam-audit",
+        "ciam-audit_zinnia_dev",
+        "dev",
+        "CatalogService:CIAM-Audit-Service"
+      ],
+      "updated_at": 1749216917,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1695325706,
+      "enabled": true,
+      "host": "127.0.0.1",
+      "id": "79f01ae9-2a39-41e6-a263-38ff0a44097b",
+      "name": "acme-poc",
+      "port": 65535,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1696347699,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1733765223,
+      "enabled": true,
+      "host": "internal-annuitynetuilb-1625678047.us-east-1.elb.amazonaws.com",
+      "id": "7e1a1557-497e-42b0-a9a0-1e2aab2aac0e",
+      "name": "products_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:products",
+        "products_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1733765223,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1705120338,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "81165678-18f5-446c-8196-90a29fc421d0",
+      "name": "otp-external-bpm_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:otp-external-bpm",
+        "otp-external-bpm_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Policy-Transactions-enforced-API"
+      ],
+      "updated_at": 1746718421,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1683664013,
+      "enabled": true,
+      "host": "mockbin.org",
+      "id": "81b3a3bb-f700-46ed-ab9b-14f50343c078",
+      "name": "kafka-test",
+      "path": "/request",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "kafka-test"
+      ],
+      "updated_at": 1683931901,
+      "write_timeout": 60000
+    },
+    {
+      "ca_certificates": [
+        "9a70d0af-e438-456f-9893-422e4f7bf883",
+        "58938dfd-5a33-4d53-9b7f-11912de62498",
+        "aeee305d-ad51-4cf4-b64b-6149d8ad5dc8"
+      ],
+      "client_certificate": {
+        "id": "aa18c2d0-8646-47ea-90aa-7e927b98119e"
+      },
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "apidev.aws-gafg.com",
+      "id": "82f9fddf-84ba-474d-a781-d261f02c7d16",
+      "name": "ga-outgwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 5,
+      "tags": [
+        "ga-outgwsvcs_zinnia_dev",
+        "_KonnectService:ga-outgwsvcs"
+      ],
+      "tls_verify": true,
+      "updated_at": 1675977729,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1737359024,
+      "enabled": true,
+      "host": "internal-spectrum-alb-dev-1066710666.us-east-1.elb.amazonaws.com",
+      "id": "84f9367f-e1e6-48b2-ab55-51c7ca5e83ff",
+      "name": "email-service_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:email-service",
+        "email-service_zinnia_dev",
+        "dev",
+        "CatalogService:Enterprise-Communication"
+      ],
+      "updated_at": 1745321443,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1739726503,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "86a2e7ff-e98f-4ef9-8308-0afcc428d6d1",
+      "name": "contact-management_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:contact-management",
+        "contact-management_zinnia_dev",
+        "dev",
+        "CatalogService:Contact-Management"
+      ],
+      "updated_at": 1739726503,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1719607531,
+      "enabled": true,
+      "host": "dev.fund-information-service.zinnia.io",
+      "id": "87a7fb62-f7e6-47e3-b973-4b9e93cc0a96",
+      "name": "fund-information-service_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:fund-information-service",
+        "fund-information-service_zinnia_dev",
+        "dev",
+        "CatalogService:Fund-Information"
+      ],
+      "updated_at": 1734089852,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1717992400,
+      "enabled": true,
+      "host": "80f517335794434e9da4212bae265f5c.api.mockbin.io",
+      "id": "8d10bcfd-a0e7-4708-bf6e-da91d1ccc996",
+      "name": "camunda-inbound",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "camunda",
+        "dev",
+        "tpp",
+        "ebix"
+      ],
+      "updated_at": 1718996276,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1732889815,
+      "enabled": true,
+      "host": "demo-bpm.zinnia.com",
+      "id": "9159ed7d-f84b-45c4-891b-4f29bf925679",
+      "name": "cerebrum-transaction-store_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:cerebrum-transaction-store",
+        "cerebrum-transaction-store_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Transaction-Store"
+      ],
+      "updated_at": 1750169662,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1747340705,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "92bb963b-8fe6-40e7-9490-846cd3537676",
+      "name": "product-service_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:product-service",
+        "product-service_zinnia_dev",
+        "dev",
+        "CatalogService:Product-Service"
+      ],
+      "updated_at": 1747340705,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1742310051,
+      "enabled": true,
+      "host": "se2u-data-dev.se2.com",
+      "id": "933b41f8-200f-476d-b2c0-985f08de81c7",
+      "name": "uw-api_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:uw-api",
+        "uw-api_zinnia_dev",
+        "dev",
+        "CatalogService:UnifiedWeb-SSO-API"
+      ],
+      "updated_at": 1742317695,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-data.spectrum.se2.com",
+      "id": "9489fd46-9b73-43b8-b8de-7606503ff615",
+      "name": "glco-gwsvcs_zinnia_dev",
+      "path": "/web/api/policy/glco/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "glco-gwsvcs_zinnia_dev",
+        "_KonnectService:glco-gwsvcs"
+      ],
+      "updated_at": 1677610484,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1694024703,
+      "enabled": true,
+      "host": "internal-dev-zsor-api-lb-1544572918.us-east-1.elb.amazonaws.com",
+      "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5",
+      "name": "zahara-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1698082479,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1724166135,
+      "enabled": true,
+      "host": "background-check-73x2of4glq-uc.a.run.app",
+      "id": "9613a7b1-aa27-4be0-bc4e-16e51b06cdfc",
+      "name": "background_check_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:background_check",
+        "background_check_zinnia_dev",
+        "dev",
+        "CatalogService:Background-Check"
+      ],
+      "updated_at": 1740413680,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1715022946,
+      "enabled": true,
+      "host": "dev.illustration-service.zinnia.io",
+      "id": "97d0d504-2ae2-4806-8f75-fb7c4b0e6f2b",
+      "name": "illustration-api_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:illustration-api",
+        "illustration-api_zinnia_dev",
+        "dev",
+        "CatalogService:Illustration-Generation"
+      ],
+      "updated_at": 1745955182,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1732546891,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "9a797d9d-41a2-4546-87f2-651d970b8d9d",
+      "name": "processmanager-gwsvcs_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:processmanager-gwsvcs",
+        "processmanager-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Process-Management"
+      ],
+      "updated_at": 1749474298,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1677081942,
+      "enabled": true,
+      "host": "dev-esbsvcs.se2.com",
+      "id": "9a9e16b2-d37c-4a92-9d72-08d7b6cf30fe",
+      "name": "poc.echoservice",
+      "path": "/echoservice",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1677081944,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1728421665,
+      "enabled": true,
+      "host": "orchestrator.dev.zinnia.com",
+      "id": "9d12b0eb-013e-42c2-9393-ec7dd8d309e4",
+      "name": "virtual_agent_zinnia_dev",
+      "path": "/",
+      "port": 8080,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:virtual_agent",
+        "virtual_agent_zinnia_dev",
+        "dev",
+        "CatalogService:Virtual-Agent"
+      ],
+      "updated_at": 1734091444,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1714505929,
+      "enabled": true,
+      "host": "uat.product-rate-service.zinnia.io",
+      "id": "a1332f6d-a34b-4f65-b239-32f61f37826a",
+      "name": "product-rate_zinnia_uat",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:product-rate",
+        "product-rate_zinnia_uat",
+        "uat"
+      ],
+      "updated_at": 1714505929,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-esbsvcs.se2.com",
+      "id": "a1381ad3-c1cc-4717-854e-64efc854048a",
+      "name": "kuvare-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "kuvare-gwsvcs_zinnia_dev",
+        "_KonnectService:kuvare-gwsvcs"
+      ],
+      "updated_at": 1678302663,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-api-int.zinnia.com",
+      "id": "a1e5245a-05da-4f93-9ba1-35c2a60cd393",
+      "name": "aurum-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "aurum-gwsvcs_zinnia_dev",
+        "_KonnectService:aurum-gwsvcs"
+      ],
+      "updated_at": 1677518726,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1721330468,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "a4429f7c-becc-4d4c-86b0-2c516168e2ea",
+      "name": "preference-management_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:preference-management",
+        "preference-management_zinnia_dev",
+        "dev",
+        "CatalogService:Preference-Management"
+      ],
+      "updated_at": 1742909835,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1727342294,
+      "enabled": true,
+      "host": "lead-information-service.staging.policygenius.cloud",
+      "id": "a4fd96dd-43ca-4a89-a9eb-f1864c569655",
+      "name": "Leads_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:Leads",
+        "Leads_zinnia_dev",
+        "dev",
+        "CatalogService:Leads"
+      ],
+      "updated_at": 1741596200,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1680045899,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3",
+      "name": "casemanager-gwsvcs_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:casemanager-gwsvcs",
+        "casemanager-gwsvcs_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Case-Management"
+      ],
+      "updated_at": 1748854890,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1746648670,
+      "enabled": true,
+      "host": "localhost",
+      "id": "aa9cfa46-b838-4ada-911e-40d8ad030ee2",
+      "name": "demo-env-router-https",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1746648670,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1740938073,
+      "enabled": true,
+      "host": "dev-bpm.se2.com",
+      "id": "ade600c1-1d32-4d95-9af7-f25045ed4b3b",
+      "name": "producer-onboarding_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:producer-onboarding",
+        "producer-onboarding_zinnia_dev",
+        "dev",
+        "CatalogService:Producer-Onboarding-BPM"
+      ],
+      "updated_at": 1740938073,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "qa-esbsvcs-int.se2.com",
+      "id": "ae984ab5-0198-4470-bdd8-e0c0d1aeed65",
+      "name": "heartbeat",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1675977729,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1746793908,
+      "enabled": true,
+      "host": "demo-bpm.zinnia.com",
+      "id": "bd8788d0-37d8-4352-8135-12065be9209a",
+      "name": "otp-external-bpm-demo_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:otp-external-bpm-demo",
+        "otp-external-bpm-demo_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Policy-Transactions-enforced-API-Demo"
+      ],
+      "updated_at": 1746793908,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1724170850,
+      "enabled": true,
+      "host": "quote-aggregator.staging.policygenius.cloud",
+      "id": "be750deb-b143-47f2-bd4d-f76f821bbb68",
+      "name": "quotes-marketplace_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:quotes-marketplace",
+        "quotes-marketplace_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1724170850,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1745410431,
+      "enabled": true,
+      "host": "lifeandannuitynetdtccapi-lb-1992751728.us-east-1.elb.amazonaws.com",
+      "id": "be863f7b-e03b-471b-8747-1c85402214ee",
+      "name": "dtcc_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:dtcc",
+        "dtcc_zinnia_dev",
+        "dev",
+        "CatalogService:dtcc"
+      ],
+      "updated_at": 1745410431,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1712258353,
+      "enabled": true,
+      "host": "dev.rmd-calculation-service.zinnia.io",
+      "id": "beb11d09-a00f-4dd2-b578-a1a4b9a6f2d9",
+      "name": "rmd-calculation_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:rmd-calculation",
+        "rmd-calculation_zinnia_dev",
+        "dev",
+        "CatalogService:RMD-Calculation"
+      ],
+      "updated_at": 1734095089,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "testapi1.millimanintelliscript.com",
+      "id": "c0e20628-557a-48bf-9d96-ccb4fce7f626",
+      "name": "evidencevendor-outgwsvcs_milliman_zinnia_dev",
+      "path": "/Irix/IASRequestWS.asmx",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 0,
+      "tags": [
+        "evidencevendor-outgwsvcs_zinnia_dev",
+        "_KonnectService:evidencevendor-outgwsvcs"
+      ],
+      "updated_at": 1684749389,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1707316226,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "c263b35d-f31f-4877-b78d-544e131da967",
+      "name": "policy-ref_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:policy-ref",
+        "policy-ref_zinnia_dev",
+        "dev",
+        "CatalogService:Policy-Reference-Service"
+      ],
+      "updated_at": 1740416989,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1718018721,
+      "enabled": true,
+      "host": "api.staging.policygenius.cloud",
+      "id": "c43321aa-b9a4-4e31-af47-653776883473",
+      "name": "Marketplace_zinnia_dev",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:Marketplace",
+        "Marketplace_zinnia_dev",
+        "dev"
+      ],
+      "updated_at": 1724073852,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1706286857,
+      "enabled": true,
+      "host": "78c74cf426f745a99d0f89c1b5a9e8ef.api.mockbin.io",
+      "id": "c4d7d1dc-2d8f-4681-832d-1716513ff994",
+      "name": "mock-spec",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "TODO",
+        "delete",
+        "test"
+      ],
+      "updated_at": 1718134979,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1700508910,
+      "enabled": true,
+      "host": "httpbin.org",
+      "id": "c4fbe419-8591-4bdd-8774-d20f2e00ed0f",
+      "name": "httpbin-api",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1700508910,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1746634027,
+      "enabled": true,
+      "host": "localhost",
+      "id": "c744afb3-b49f-4d03-b97b-e3b4dc6dc4dd",
+      "name": "demo-env-router-http",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "demo"
+      ],
+      "updated_at": 1746738217,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "account-d.docusign.com",
+      "id": "c8946dd6-33d8-4ddf-9335-7be56623321a",
+      "name": "docusign-outgwsvcs-v2_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 5,
+      "tags": [
+        "docusign-outgwsvcs-v2_zinnia_dev",
+        "_KonnectService:docusign-outgwsvcs-v2"
+      ],
+      "updated_at": 1675977729,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1677729369,
+      "enabled": true,
+      "host": "dev-esbsvcs.se2.com",
+      "id": "cc9685a6-ce1a-4fb5-8aca-4d5e91d5b89d",
+      "name": "poc_auth",
+      "path": "/echoservice",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1677779940,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1724770439,
+      "enabled": true,
+      "host": "internal-eds-alb-dev-93997597.us-east-1.elb.amazonaws.com",
+      "id": "d077b7f1-e9dc-466c-805a-ab4aab83f64f",
+      "name": "enterprise-document_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:enterprise-document",
+        "enterprise-document_zinnia_dev",
+        "dev",
+        "CatalogService:Documents"
+      ],
+      "updated_at": 1738671846,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1722618677,
+      "enabled": true,
+      "host": "SBTOPETPAPP01Q",
+      "id": "d0a1df7d-1af7-4f9b-bc47-b3761530d0c0",
+      "name": "EAPPS_zinnia_dev",
+      "path": "/ETPAPI",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:EAPPS",
+        "EAPPS_zinnia_dev",
+        "dev",
+        "CatalogService:New-Business"
+      ],
+      "updated_at": 1739309393,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1695648524,
+      "enabled": true,
+      "host": "mockbin.org",
+      "id": "d45ca835-3d5e-4524-8021-9d175defe97c",
+      "name": "acme-test",
+      "path": "/request",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1695648524,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1726238140,
+      "enabled": true,
+      "host": "swizzle-api-73x2of4glq-uc.a.run.app",
+      "id": "d7225552-c37d-40bc-b866-5c71800d374b",
+      "name": "producer_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:producer",
+        "producer_zinnia_dev",
+        "dev",
+        "CatalogService:Producer-Onboarding-Management"
+      ],
+      "updated_at": 1741782513,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1678203437,
+      "enabled": true,
+      "host": "mockbin.org",
+      "id": "db86d301-f6cf-47a1-b409-c03df5721dbc",
+      "name": "poc_five9",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "updated_at": 1678203437,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-api-int.zinnia.com",
+      "id": "ddef3730-4523-4a4c-9c22-b0f754b40760",
+      "name": "ulpc-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "ulpc-gwsvcs_zinnia_dev",
+        "_KonnectService:ulpc-gwsvcs"
+      ],
+      "updated_at": 1677610308,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "ivrmicroserviceapi.sbl.com",
+      "id": "df136b38-ec2a-487d-a7ce-3a0691739ba5",
+      "name": "five9-gwsvcs_zinnia_dev",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "five9-gwsvcs_zinnia_dev",
+        "_KonnectService:five9-gwsvcs"
+      ],
+      "updated_at": 1747665622,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1746793923,
+      "enabled": true,
+      "host": "demo-bpm.zinnia.com",
+      "id": "e04068c0-c308-4d24-ae9d-adc3dc4b6060",
+      "name": "new-business-demo_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:new-business-demo",
+        "new-business-demo_zinnia_dev",
+        "dev",
+        "CatalogService:New-Business-Demo"
+      ],
+      "updated_at": 1746793923,
+      "write_timeout": 60000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "dev-api-int.zinnia.com",
+      "id": "e14d32ef-6ea9-44e8-a012-919fe398825a",
+      "name": "sb-gwsvcs_zinnia_dev",
+      "path": "/",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "sb-gwsvcs_zinnia_dev",
+        "_KonnectService:sb-gwsvcs"
+      ],
+      "updated_at": 1677750968,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 30000,
+      "created_at": 1675977729,
+      "enabled": true,
+      "host": "shreddr.captricity.com",
+      "id": "e4e460c4-65dd-4c0e-b6ed-30c2138e0245",
+      "name": "vidadoocr-outgwsvcs_zinnia_dev",
+      "path": "/api",
+      "port": 443,
+      "protocol": "https",
+      "read_timeout": 30000,
+      "retries": 0,
+      "tags": [
+        "vidadoocr-outgwsvcs_zinnia_dev",
+        "_KonnectService:vidadoocr-outgwsvcs"
+      ],
+      "updated_at": 1678297537,
+      "write_timeout": 30000
+    },
+    {
+      "connect_timeout": 60000,
+      "created_at": 1748351199,
+      "enabled": true,
+      "host": "internal-service-lb-751274181.us-east-1.elb.amazonaws.com",
+      "id": "e5b13fa0-990b-46bd-b50f-a695ed8d86af",
+      "name": "dotnet-service_zinnia_dev",
+      "path": "/",
+      "port": 80,
+      "protocol": "http",
+      "read_timeout": 60000,
+      "retries": 5,
+      "tags": [
+        "_KonnectService:dotnet-service",
+        "dotnet-service_zinnia_dev",
+        "dev",
+        "CatalogService:Zinnia-Dotnet-Service"
+      ],
+      "updated_at": 1748351199,
+      "write_timeout": 60000
+    }
+  ],
+  "next": "/services?offset=Kl1CWVIPQURFXEtVQw19EQ9EMWYNXl9KDRVeXBUWEUgBShYAEQ",
+  "offset": "Kl1CWVIPQURFXEtVQw19EQ9EMWYNXl9KDRVeXBUWEUgBShYAEQ"
+}

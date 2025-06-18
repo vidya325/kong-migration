@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "certificate": {
+        "id": "8106045c-ff42-43ff-afe1-b5518d571f98"
+      },
+      "created_at": 1699038067,
+      "id": "6fb597ca-c31e-429a-b867-f88ac6003b31",
+      "name": "dev.api.zinnia.io",
+      "tags": [
+        "dev.api.zinnia.io"
+      ],
+      "updated_at": 1699038110
+    }
+  ]
+}

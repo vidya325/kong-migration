@@ -1,0 +1,2899 @@
+{
+  "data": [
+    {
+      "created_at": 1706288273,
+      "https_redirect_status_code": 426,
+      "id": "00426edc-bbaa-45fc-a0f2-45e9f0e959ad",
+      "methods": [
+        "GET"
+      ],
+      "name": "mock",
+      "path_handling": "v0",
+      "paths": [
+        "/verify-consumer-mock"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "c4d7d1dc-2d8f-4681-832d-1716513ff994"
+      },
+      "strip_path": false,
+      "tags": [
+        "mock",
+        "TODO",
+        "delete",
+        "test"
+      ],
+      "updated_at": 1718135053
+    },
+    {
+      "created_at": 1739726557,
+      "https_redirect_status_code": 426,
+      "id": "007f2a09-d118-4549-ad62-87e983323019",
+      "methods": [
+        "POST"
+      ],
+      "name": "Lead_Service_API-addLeadSource",
+      "path_handling": "v0",
+      "paths": [
+        "~/lead-management/v1/leads/(?<leadId>[^#?/]+)/sources$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "0f13a064-669a-4b86-bd63-8d9dc1dbc7e4"
+      },
+      "strip_path": false,
+      "tags": [
+        "lead-management_zinnia_dev"
+      ],
+      "updated_at": 1739726654
+    },
+    {
+      "created_at": 1748431585,
+      "https_redirect_status_code": 426,
+      "id": "010b11d8-4585-4723-ac3d-0f9b2e7b6043",
+      "methods": [
+        "PATCH"
+      ],
+      "name": "Policy_Service-AppController_featureChangeplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/features$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1748431585
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "01204e52-ea8b-4047-830e-ea4828960d79",
+      "methods": [
+        "GET"
+      ],
+      "name": "Policy_Service-CarrierController_getCarriers",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/carriers$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1744276802,
+      "https_redirect_status_code": 426,
+      "id": "0127d2b0-4b4b-481e-a5e2-02475b1f77ac",
+      "methods": [
+        "POST"
+      ],
+      "name": "Case_Management_API-getTaskInstanceListForTaskV2",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v2/tasks/search$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1744276802
+    },
+    {
+      "created_at": 1726559229,
+      "https_redirect_status_code": 426,
+      "id": "01f61efd-9289-40d3-9963-e42a6ef8f441",
+      "methods": [
+        "GET"
+      ],
+      "name": "OTP_External_Api-OnbaseGetForm",
+      "path_handling": "v0",
+      "paths": [
+        "~/integration/v1/digital/form$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "5bbacd14-a8d4-412d-96f0-7a6937f6a7f2"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1726559229
+    },
+    {
+      "created_at": 1739726557,
+      "https_redirect_status_code": 426,
+      "id": "0295db5d-4485-4071-a8e2-095c87eb3f25",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Lead_Service_API-updateLead",
+      "path_handling": "v0",
+      "paths": [
+        "~/lead-management/v1/leads/(?<id>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "0f13a064-669a-4b86-bd63-8d9dc1dbc7e4"
+      },
+      "strip_path": false,
+      "tags": [
+        "lead-management_zinnia_dev"
+      ],
+      "updated_at": 1739726654
+    },
+    {
+      "created_at": 1680046194,
+      "https_redirect_status_code": 426,
+      "id": "02acc78b-c89d-42c2-803c-8b76febda796",
+      "methods": [
+        "GET"
+      ],
+      "name": "Case_Management_API-getNoteInstanceByCaseId",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v1/cases/(?<caseId>[^#?/]+)/note$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1728661595
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "02d4ca6c-62d6-41d9-b8bf-17cd26a37ae9",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AppController_updatePhoneNumberplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyId>[^#?/]+)/phone$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1738783700,
+      "https_redirect_status_code": 426,
+      "id": "02f6d6c8-01ea-4f8a-ba2b-e5ea4d1e16aa",
+      "methods": [
+        "PATCH"
+      ],
+      "name": "Producer_Onboarding_Management_API-distributors_v1_producers_id-patch",
+      "path_handling": "v0",
+      "paths": [
+        "~/distributors/v1/producers/(?<id>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "d7225552-c37d-40bc-b866-5c71800d374b"
+      },
+      "strip_path": false,
+      "tags": [
+        "producer_zinnia_dev"
+      ],
+      "updated_at": 1738783700
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "030df851-040e-4b6e-858d-e75bc9d008f2",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Policy_Service-AppController_updateBankAccountplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyId>[^#?/]+)/bankaccount/(?<bankId>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1745955182,
+      "https_redirect_status_code": 426,
+      "id": "037cdc3e-e02c-460c-811a-b6ed43c9970b",
+      "methods": [
+        "GET",
+        "OPTIONS"
+      ],
+      "name": "Illustration_Generation-get-illustration-for-in-force-term-life",
+      "path_handling": "v0",
+      "paths": [
+        "~/illustration/v3/term-life/in-force/(?<id>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "97d0d504-2ae2-4806-8f75-fb7c4b0e6f2b"
+      },
+      "strip_path": false,
+      "tags": [
+        "illustration-api_zinnia_dev"
+      ],
+      "updated_at": 1745955182
+    },
+    {
+      "created_at": 1702663659,
+      "https_redirect_status_code": 426,
+      "id": "039ed765-bd73-43a1-b51b-8e443ca16899",
+      "methods": [
+        "GET"
+      ],
+      "name": "Zahara_API_Service-getSystematicProgramsForPolicy",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/policies/(?<policyNumber>[^/]+)/systematicPrograms$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1702663659
+    },
+    {
+      "created_at": 1718207861,
+      "https_redirect_status_code": 426,
+      "id": "0407e7eb-2acb-464d-9313-5e1c8a9f2b2f",
+      "methods": [
+        "POST",
+        "OPTIONS"
+      ],
+      "name": "addressvalidation",
+      "path_handling": "v0",
+      "paths": [
+        "~/api/validation/v1/(?<clientCode>[^#?/]+)/addressvalidation"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "4a5cfbfb-fa08-4203-9046-2e3426c5c46c"
+      },
+      "strip_path": false,
+      "tags": [
+        "uspsaddressvalidation-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1720811464
+    },
+    {
+      "created_at": 1718135796,
+      "https_redirect_status_code": 426,
+      "id": "044732fc-d49b-4b20-80e2-619436f36057",
+      "name": "mock-test",
+      "path_handling": "v0",
+      "paths": [
+        "/mock-test"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "c4d7d1dc-2d8f-4681-832d-1716513ff994"
+      },
+      "strip_path": false,
+      "updated_at": 1718135796
+    },
+    {
+      "created_at": 1681416868,
+      "hosts": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "04ad4ff6-eef4-4bf9-a542-b400d44bdc20",
+      "name": "sb.salesentity",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/salesentity"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "e14d32ef-6ea9-44e8-a012-919fe398825a"
+      },
+      "snis": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "sb-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1685467172
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "04b1658d-de22-4157-8811-109b4d64751b",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AppController_postPartialWithdrawalQuoteplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/partialwithdrawalonetime/quote$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1733765223,
+      "https_redirect_status_code": 426,
+      "id": "05a40441-89af-405e-aac2-468f7a3f2567",
+      "methods": [
+        "GET"
+      ],
+      "name": "AnnuityNet_WebAPI-api_Product_v1_Products-get",
+      "path_handling": "v0",
+      "paths": [
+        "~/api/Product/v1/Products$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "7e1a1557-497e-42b0-a9a0-1e2aab2aac0e"
+      },
+      "strip_path": false,
+      "tags": [
+        "products_zinnia_dev"
+      ],
+      "updated_at": 1733765223
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "05cb183b-77c4-480a-9e94-fcf09ebcb5c4",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AppController_postValueAdjustmentplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/valueadjustment$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1745955182,
+      "https_redirect_status_code": 426,
+      "id": "05d988cf-b096-4b1c-8393-a9ee556d2a1c",
+      "methods": [
+        "POST",
+        "OPTIONS"
+      ],
+      "name": "Illustration_Generation-create-illustration",
+      "path_handling": "v0",
+      "paths": [
+        "~/illustration/v3/illustration-request$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "97d0d504-2ae2-4806-8f75-fb7c4b0e6f2b"
+      },
+      "strip_path": false,
+      "tags": [
+        "illustration-api_zinnia_dev"
+      ],
+      "updated_at": 1745955182
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-nasu-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "05de222a-d18a-42f7-9f04-cb23d8c65f3f",
+      "name": "riders",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/riders"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "3bc40ffe-6134-4b1b-94f5-5cd4a2f1f5c8"
+      },
+      "snis": [
+        "dev-nasu-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "nasu-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1678199601
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "06044bb0-eccc-485c-b844-82312b8e2edf",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-loanrepaymentonetimeeligibilitycheck",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/loanrepaymentonetime/eligibilitycheck$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1675977731,
+      "https_redirect_status_code": 426,
+      "id": "0611aea3-9e71-4c6c-a00e-df8c755c86b7",
+      "name": "zsor_tpas",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/tpas"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "f2349336-c34d-4493-b036-0a37773ed9c2"
+      },
+      "strip_path": false,
+      "updated_at": 1675977731
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-nasu-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "06317d05-902a-41bf-81d8-7166b965cf21",
+      "name": "v1heartbeat",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/heartbeat"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "3bc40ffe-6134-4b1b-94f5-5cd4a2f1f5c8"
+      },
+      "snis": [
+        "dev-nasu-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "nasu-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1678199601
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "063d6f04-8da9-4937-854f-edcb2d7dd40a",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-fundAllocation1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/fundallocations$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1737458836,
+      "https_redirect_status_code": 426,
+      "id": "064e7f2e-6b3c-4158-b58e-f32fb6206a27",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Case_Management_API-updateFormMetadataById",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v1/form/metadata/(?<formId>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1737458836
+    },
+    {
+      "created_at": 1702663659,
+      "https_redirect_status_code": 426,
+      "id": "0678baa9-1464-4d09-bf81-b22a0cf71d4f",
+      "methods": [
+        "GET"
+      ],
+      "name": "Zahara_API_Service-getAllDisbursements",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/disbursements$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1703085282
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "067ae473-5c36-4a6d-896f-38139a00bdb1",
+      "name": "sb.premiumquote",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/premiumquote"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "e14d32ef-6ea9-44e8-a012-919fe398825a"
+      },
+      "snis": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "sb-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1706174066
+    },
+    {
+      "created_at": 1748431585,
+      "https_redirect_status_code": 426,
+      "id": "06a572d9-d3af-4d91-837c-9e75da1fff7e",
+      "methods": [
+        "PATCH"
+      ],
+      "name": "Policy_Service-AppController_addOrUpdateOrDeletePolicyPartiesplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1748431585
+    },
+    {
+      "created_at": 1742410228,
+      "https_redirect_status_code": 426,
+      "id": "070ccfda-0c4a-401f-8c41-79ffade453b4",
+      "methods": [
+        "POST"
+      ],
+      "name": "Producer_Onboarding_Management_API-distributors_v1_trainings_files_process-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/distributors/v1/trainings/files/process$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "d7225552-c37d-40bc-b866-5c71800d374b"
+      },
+      "strip_path": false,
+      "tags": [
+        "producer_zinnia_dev"
+      ],
+      "updated_at": 1742410228
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "0726c75a-338c-48f0-91c0-955b80d8a3cc",
+      "methods": [
+        "GET"
+      ],
+      "name": "Policy_Service-AppController_getPolicyVersionplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/versions/(?<version>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1675977731,
+      "https_redirect_status_code": 426,
+      "id": "0774edcc-82ab-4321-96ac-6206788cc874",
+      "name": "zsor_policy_events",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/policies/:policyId/events"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "f2349336-c34d-4493-b036-0a37773ed9c2"
+      },
+      "strip_path": false,
+      "updated_at": 1675977731
+    },
+    {
+      "created_at": 1737458836,
+      "https_redirect_status_code": 426,
+      "id": "077d7130-94d3-4733-93d9-b5b0b464cec8",
+      "methods": [
+        "POST"
+      ],
+      "name": "Case_Management_API-createFormMetadata",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v1/form/metadata$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1737458836
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "0782fb11-e913-4c94-a0af-e5e86876e563",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-setDeliveryDate1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/deliverydatesetup$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-nasu-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "07860117-b3dc-45a2-9b31-78343a53f8c6",
+      "name": "document",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/document"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "3bc40ffe-6134-4b1b-94f5-5cd4a2f1f5c8"
+      },
+      "snis": [
+        "dev-nasu-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "nasu-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1678199601
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "0797d437-b7f5-46fc-a724-72952db8c791",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-systematicProgramValidation",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/systematicprograms/validation$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1745507818,
+      "https_redirect_status_code": 426,
+      "id": "07b6f269-4c89-4145-b178-baab91b51a48",
+      "methods": [
+        "POST"
+      ],
+      "name": "Producer_Onboarding_Management_API-distributors_v1_producers_onboard-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/distributors/v1/producers/onboard$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "d7225552-c37d-40bc-b866-5c71800d374b"
+      },
+      "strip_path": false,
+      "tags": [
+        "producer_zinnia_dev"
+      ],
+      "updated_at": 1745507818
+    },
+    {
+      "created_at": 1702663659,
+      "https_redirect_status_code": 426,
+      "id": "07d8aad7-8f19-4e0b-80da-5cc2ac7451b0",
+      "methods": [
+        "GET"
+      ],
+      "name": "Zahara_API_Service-getAllAccountingEntryRules",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/accountentryrules$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1702663659
+    },
+    {
+      "created_at": 1678215689,
+      "https_redirect_status_code": 426,
+      "id": "086bd54b-699b-4a29-8e03-44a8a1b71674",
+      "name": "giacttest",
+      "path_handling": "v0",
+      "paths": [
+        "/gtest"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "202ed34d-6990-4161-96d2-52f23687244e"
+      },
+      "strip_path": true,
+      "updated_at": 1678215689
+    },
+    {
+      "created_at": 1727193518,
+      "https_redirect_status_code": 426,
+      "id": "086c00cd-d92c-47fc-8c48-47ff61a2b71b",
+      "methods": [
+        "GET"
+      ],
+      "name": "Party_Reference_Service-HealthController_getHealth",
+      "path_handling": "v0",
+      "paths": [
+        "~/party/parties/health$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "f1ce2dc5-de87-46af-a960-271369a5fc37"
+      },
+      "strip_path": false,
+      "tags": [
+        "party-reference_zinnia_dev"
+      ],
+      "updated_at": 1735568234
+    },
+    {
+      "created_at": 1727193518,
+      "https_redirect_status_code": 426,
+      "id": "08f504b8-19f1-441c-af76-6d86f28d70f8",
+      "methods": [
+        "DELETE"
+      ],
+      "name": "Party_Reference_Service-deletePartyAliasById",
+      "path_handling": "v0",
+      "paths": [
+        "~/party/v1/parties/(?<id>[^#?/]+)/reference/alias/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "f1ce2dc5-de87-46af-a960-271369a5fc37"
+      },
+      "strip_path": false,
+      "tags": [
+        "party-reference_zinnia_dev"
+      ],
+      "updated_at": 1735568234
+    },
+    {
+      "created_at": 1735658816,
+      "https_redirect_status_code": 426,
+      "id": "09294b05-1ea3-430c-a34e-40fcfb91e918",
+      "methods": [
+        "GET"
+      ],
+      "name": "OTP_Rule_Engine-ruleengine_v1_businessrule_ruleId-get",
+      "path_handling": "v0",
+      "paths": [
+        "~/ruleengine/v1/businessrule/(?<ruleId>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "1941adce-5aaf-44da-855c-3960f1d5a136"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-rule-engine_zinnia_dev"
+      ],
+      "updated_at": 1735658816
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "0982aa26-f7b8-4bfe-8ea7-fde371759015",
+      "name": "sb.workflow.uwdecision",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/workflow/uwdecision"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "e14d32ef-6ea9-44e8-a012-919fe398825a"
+      },
+      "snis": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "sb-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1685467172
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "0a3b284a-d16e-4e34-8c1b-5f5fed76f200",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-loanrepaymentonetime1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/loanrepaymentonetime$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "0add394c-e3cb-47e9-bcd2-f1a9fe9aa973",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AccountingController_createChartOfAccounts",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/chartofaccounts$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1742294642,
+      "https_redirect_status_code": 426,
+      "id": "0ae677f1-c6a8-4cf1-8b91-4a02b3da3788",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-fundAllocationEligibility",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/fundallocations/eligibilitycheck$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1742294642
+    },
+    {
+      "created_at": 1741252755,
+      "https_redirect_status_code": 426,
+      "id": "0b7ca0d0-3a4d-41fc-9f86-a566194009b6",
+      "methods": [
+        "GET",
+        "OPTIONS"
+      ],
+      "name": "ZMC_Need_Analysis-getSurveyData",
+      "path_handling": "v0",
+      "paths": [
+        "~/marketconnect/need-analysis/api/v1/contacts/(?<contactId>[^#?/]+)/surveys/(?<surveyName>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "768afc97-5e4e-47ef-99b9-1099955677a6"
+      },
+      "strip_path": false,
+      "tags": [
+        "zmc-need-analysis_zinnia_dev"
+      ],
+      "updated_at": 1741252755
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "0c2170ef-bc38-47d6-8310-bac126cd0a56",
+      "methods": [
+        "PATCH"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-identifierChange1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyId>[^#?/]+)/identifiers$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-pacl-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "0c34d19d-4ca2-4f25-81dc-1b61e649e533",
+      "name": "documents",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/documents"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "1cff26ff-1871-4042-8c45-ce9e01d6fced"
+      },
+      "snis": [
+        "dev-pacl-gwsvcs.se2.com"
+      ],
+      "strip_path": false,
+      "tags": [
+        "pacl-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1680025265
+    },
+    {
+      "created_at": 1745410431,
+      "https_redirect_status_code": 426,
+      "id": "0c6d73c2-53fc-462c-92e3-13ce995421be",
+      "methods": [
+        "POST"
+      ],
+      "name": "Life_and_Annuity_Net_DTCC_API-dtcc_v1_activitystatus_all-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/dtcc/v1/activitystatus/all$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "be863f7b-e03b-471b-8747-1c85402214ee"
+      },
+      "strip_path": false,
+      "tags": [
+        "dtcc_zinnia_dev"
+      ],
+      "updated_at": 1745410431
+    },
+    {
+      "created_at": 1683664054,
+      "https_redirect_status_code": 426,
+      "id": "0c721191-556a-413f-b112-02e7c73aecb7",
+      "name": "Kafka-route",
+      "path_handling": "v0",
+      "paths": [
+        "/kafka-test"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81b3a3bb-f700-46ed-ab9b-14f50343c078"
+      },
+      "strip_path": true,
+      "tags": [
+        "kafka-test"
+      ],
+      "updated_at": 1683931923
+    },
+    {
+      "created_at": 1675977731,
+      "https_redirect_status_code": 426,
+      "id": "0cf07f31-47ce-43d9-a04e-0597e7d0a012",
+      "name": "zsor_events",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/events"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "f2349336-c34d-4493-b036-0a37773ed9c2"
+      },
+      "strip_path": false,
+      "updated_at": 1675977731
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "0cf9c3ce-dcd3-4650-97d6-874a1f1bc207",
+      "methods": [
+        "GET"
+      ],
+      "name": "Policy_Service-AppController_getPolicyplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1711096096,
+      "https_redirect_status_code": 426,
+      "id": "0d5a5e40-573e-4155-929e-b77b210f6d26",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Case_Management_API-UpdateTaskByCaseIdAndTaskId",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v2/cases/(?<caseId>[^#?/]+)/tasks/(?<taskId>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1728661596
+    },
+    {
+      "created_at": 1675977731,
+      "headers": {
+        "target": [
+          "giact"
+        ]
+      },
+      "hosts": [
+        "dev-outgoing.apiservices.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "0db74881-4885-4adf-804e-66be6d3bf794",
+      "name": "aurum.giact",
+      "path_handling": "v0",
+      "paths": [
+        "/aurum-svcs"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "5910b9c4-edb3-4e03-9ccb-91a7b23e6efe"
+      },
+      "strip_path": true,
+      "tags": [
+        "zinnia-outbound_zinnia_dev"
+      ],
+      "updated_at": 1686650456
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "0df203f5-69ac-4c25-b45e-8098dcc7bc28",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-updatePhone3",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyId>[^#?/]+)/phones$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1739726557,
+      "https_redirect_status_code": 426,
+      "id": "0e719198-4c8c-461e-9a0f-7bc0252acfab",
+      "methods": [
+        "POST"
+      ],
+      "name": "Lead_Service_API-searchLeads",
+      "path_handling": "v0",
+      "paths": [
+        "~/lead-management/v1/leads/search$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "0f13a064-669a-4b86-bd63-8d9dc1dbc7e4"
+      },
+      "strip_path": false,
+      "tags": [
+        "lead-management_zinnia_dev"
+      ],
+      "updated_at": 1739726654
+    },
+    {
+      "created_at": 1737036015,
+      "https_redirect_status_code": 426,
+      "id": "0e7b59d4-d29c-43bf-9967-84f279bde5eb",
+      "methods": [
+        "GET"
+      ],
+      "name": "FGA_Service-getPermissions",
+      "path_handling": "v0",
+      "paths": [
+        "~/fga/v1/permissions$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "6ba44a32-0ba8-4c71-b1c7-aac256e73f9c"
+      },
+      "strip_path": false,
+      "tags": [
+        "ciam-fga_zinnia_dev"
+      ],
+      "updated_at": 1737036015
+    },
+    {
+      "created_at": 1728483404,
+      "https_redirect_status_code": 426,
+      "id": "0eb66761-0cea-4460-ad76-1c1df5f7b3d9",
+      "methods": [
+        "GET"
+      ],
+      "name": "Case_Management_API-getFormMetadata",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v1/form/metadata$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1731572047
+    },
+    {
+      "created_at": 1737036169,
+      "https_redirect_status_code": 426,
+      "id": "0f2c4505-3fd5-4691-94f1-31e72ac3722d",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_MarketConnect-poc_marketconnect_lead_v1_leads-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/poc/marketconnect/lead/v1/leads$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "20e3a661-e685-47b1-9594-5470c7044ad1"
+      },
+      "strip_path": false,
+      "tags": [
+        "marketconnect-poc_zinnia_dev"
+      ],
+      "updated_at": 1737036169
+    },
+    {
+      "created_at": 1726568193,
+      "https_redirect_status_code": 426,
+      "id": "0f472394-4652-47e6-8eed-74a52f84da10",
+      "methods": [
+        "POST"
+      ],
+      "name": "OTP_External_Api-LifecadGetFunds",
+      "path_handling": "v0",
+      "paths": [
+        "~/integration/v1/lifecad/getEligibleFunds$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "5bbacd14-a8d4-412d-96f0-7a6937f6a7f2"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1726568193
+    },
+    {
+      "created_at": 1725477970,
+      "https_redirect_status_code": 426,
+      "id": "0feed184-90fa-454b-9674-65ecb330f029",
+      "methods": [
+        "POST",
+        "OPTIONS"
+      ],
+      "name": "Preference_Service-createEDeliveryPreferenceplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/preferences/v1/(?<partyId>[^#?/]+)/e-delivery/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a4429f7c-becc-4d4c-86b0-2c516168e2ea"
+      },
+      "strip_path": false,
+      "tags": [
+        "preference-management_zinnia_dev"
+      ],
+      "updated_at": 1725477970
+    },
+    {
+      "created_at": 1675977731,
+      "headers": {
+        "target": [
+          "tpalifeillustrations"
+        ]
+      },
+      "hosts": [
+        "dev-outgoing.apiservices.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "1001627d-7331-41aa-88ce-a10fe51a08b4",
+      "name": "aurum.tpalifeillustrations",
+      "path_handling": "v0",
+      "paths": [
+        "~/aurum-svcs(?<resource>.*)"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "5910b9c4-edb3-4e03-9ccb-91a7b23e6efe"
+      },
+      "strip_path": true,
+      "tags": [
+        "zinnia-outbound_zinnia_dev"
+      ],
+      "updated_at": 1686650456
+    },
+    {
+      "created_at": 1730729668,
+      "https_redirect_status_code": 426,
+      "id": "101db3f4-7284-4ed6-a7b5-9dcc0b49434c",
+      "methods": [
+        "GET"
+      ],
+      "name": "Policy_Service-AppController_getTransactionHistory",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/transactionHistory$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1675977731,
+      "headers": {
+        "target": [
+          "sendgrid"
+        ]
+      },
+      "hosts": [
+        "dev-outgoing.apiservices.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "10236d85-4e36-47dc-9531-7773fcac4290",
+      "name": "aurum.sendgrid",
+      "path_handling": "v0",
+      "paths": [
+        "/aurum-svcs"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "5910b9c4-edb3-4e03-9ccb-91a7b23e6efe"
+      },
+      "strip_path": true,
+      "tags": [
+        "zinnia-outbound_zinnia_dev"
+      ],
+      "updated_at": 1686650456
+    },
+    {
+      "created_at": 1702663659,
+      "https_redirect_status_code": 426,
+      "id": "10e846d5-5c6d-4f41-909b-dacc29e8ddbd",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zahara_API_Service-uploadAcordXml",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/issuance$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1702663659
+    },
+    {
+      "created_at": 1739951145,
+      "https_redirect_status_code": 426,
+      "id": "11516faf-28eb-41f4-9aeb-b3206b7b1d0d",
+      "methods": [
+        "GET"
+      ],
+      "name": "Case_Management_API-retrieveReferenceDataHierarchy",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v1/refdata/(?<refType>[^#?/]+)/tree$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1739951145
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "11a28266-06e1-4d50-ba94-68e869f25ad3",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-systematicProgrameligibilitycheck",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/systematicprograms/eligibilitycheck$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "11cc8a34-e932-422f-a845-abce70ed0a03",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AccountingController_createAccountEntryRule",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/accountentryrules$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "11e291aa-d96b-4f59-a32b-26fdf694b966",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-loanrepaymentonetime",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/loanrepaymentonetime$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1742981392,
+      "https_redirect_status_code": 426,
+      "id": "12d9392f-71c8-4ae1-ab22-79f7b080b308",
+      "methods": [
+        "POST"
+      ],
+      "name": "Documents-searchDocumentTypeInformation",
+      "path_handling": "v0",
+      "paths": [
+        "~/document/v3/documentType/search$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "1ebd4947-b3d9-4ea7-9e54-b6b54e8a1c02"
+      },
+      "strip_path": false,
+      "tags": [
+        "enterprise-document_zinnia_qa"
+      ],
+      "updated_at": 1742981392
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "130da18f-5cc7-409d-ac02-18e561ce36d4",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-updateemailAddress",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyId>[^#?/]+)/emailaddress/(?<emailId>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "1310739f-f068-4903-b16a-c0410e671e5e",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-fundAllocation",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/fundallocations$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1675977731,
+      "https_redirect_status_code": 426,
+      "id": "13173c89-0548-4531-982b-1e77c0f1f70c",
+      "methods": [
+        "POST"
+      ],
+      "name": "zsor_query",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/query"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "f2349336-c34d-4493-b036-0a37773ed9c2"
+      },
+      "strip_path": false,
+      "updated_at": 1675977731
+    },
+    {
+      "created_at": 1677668113,
+      "hosts": [
+        "dev-outgoing.apiservices.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "13470a1f-1f84-480c-80f2-c56e428e02cd",
+      "path_handling": "v0",
+      "paths": [
+        "/dlic-api"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "361ddd67-6976-43b5-be8b-379d43180a62"
+      },
+      "strip_path": true,
+      "tags": [
+        "dlic-outgwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1678265413
+    },
+    {
+      "created_at": 1739372930,
+      "https_redirect_status_code": 426,
+      "id": "13be3662-a8b0-4288-b0f2-ea502be898a7",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-initialPremiumEligibility",
+      "path_handling": "v0",
+      "paths": [
+        "~/bpm/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/initialpremium/eligibilitycheck$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1739372930
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "140b1c0b-bc46-4656-8cc9-6248c2a9f6e7",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AppController_postNewLoanQuoteplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/newloan/quote$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1702663659,
+      "https_redirect_status_code": 426,
+      "id": "143981c6-f03d-4918-b19e-cea4b26654c2",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zahara_API_Service-updateCommunicationPreference",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/policies/(?<policyNumber>[^/]+)/parties/(?<partyId>[^/]+)/communicationpreference$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1702663659
+    },
+    {
+      "created_at": 1721245657,
+      "https_redirect_status_code": 426,
+      "id": "1466b86e-15e2-4545-bf7a-272107077e87",
+      "methods": [
+        "POST"
+      ],
+      "name": "XML_to_JSON-insurance-policy-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/insurance-policy$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "704e2ca3-2558-4fa6-b93a-09b96420835b"
+      },
+      "strip_path": false,
+      "tags": [
+        "policy_xml_ingest_zinnia_dev"
+      ],
+      "updated_at": 1721245657
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "14d5ae25-235f-424c-b97f-70d1e4054b3f",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-newLoan1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/newloan$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1726744357,
+      "https_redirect_status_code": 426,
+      "id": "14dd7ab1-6d61-41c6-84a1-1d3e4ab39ff9",
+      "methods": [
+        "PUT"
+      ],
+      "name": "Case_Management_API-case_v1_exceptionrefs_nmId-put",
+      "path_handling": "v0",
+      "paths": [
+        "~/case/v1/exceptionrefs/(?<nmId>[^#?/]+)$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "a9151e98-e5ac-4468-9bb9-b8e44930d2f3"
+      },
+      "strip_path": false,
+      "tags": [
+        "casemanager-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1728661595
+    },
+    {
+      "created_at": 1675977731,
+      "https_redirect_status_code": 426,
+      "id": "14fddc5e-4d06-4701-8feb-31d9d74140e5",
+      "path_handling": "v0",
+      "paths": [
+        "/v1"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "3d57fd02-0bd5-41ec-8890-434d7f6abfe4"
+      },
+      "strip_path": true,
+      "tags": [
+        "everly-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1676312165
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "15258bdf-7d3e-457f-a8aa-56035edca1ea",
+      "name": "sb.uw.submitcase",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/underwriting/submitcase"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "e14d32ef-6ea9-44e8-a012-919fe398825a"
+      },
+      "snis": [
+        "dev-sb-gwsvcs.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "sb-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1706174066
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-outgoing.apiservices.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "158942e4-1374-463b-b20d-71ce45f7ed19",
+      "name": "gafg",
+      "path_handling": "v0",
+      "paths": [
+        "/ga-api"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "82f9fddf-84ba-474d-a781-d261f02c7d16"
+      },
+      "snis": [
+        "dev-outgoing.apiservices.se2.com"
+      ],
+      "strip_path": true,
+      "tags": [
+        "ga-outgwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1675977731
+    },
+    {
+      "created_at": 1695325745,
+      "https_redirect_status_code": 426,
+      "id": "15b66cbd-52e8-42de-b289-10ccbb8286b7",
+      "name": "acme-poc",
+      "path_handling": "v0",
+      "paths": [
+        "/.well-known/acme-challenge"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "79f01ae9-2a39-41e6-a263-38ff0a44097b"
+      },
+      "strip_path": false,
+      "updated_at": 1695404165
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "15fe575a-b3be-4b27-8d53-f3a32da5ef8a",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-partialWithdrawalOneTime1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/partialwithdrawalonetime$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1682613690,
+      "hosts": [
+        "dev-dlic-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "165ddc1e-775e-4cb7-b712-cd4ddc8d858e",
+      "name": "dlic.attachment.add",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/attachment-add"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "61b1dbb2-93a2-4b37-baa8-5045a258011a"
+      },
+      "strip_path": false,
+      "tags": [
+        "dlic-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1682613690
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-pacl-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "16923e6c-bbc2-4528-aff1-413e538d2f6e",
+      "name": "premiumquote",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/premiumquote"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "1cff26ff-1871-4042-8c45-ce9e01d6fced"
+      },
+      "strip_path": false,
+      "tags": [
+        "pacl-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1680025265
+    },
+    {
+      "created_at": 1749635252,
+      "https_redirect_status_code": 426,
+      "id": "16a642a0-e7c0-4574-8f20-d585f9859be3",
+      "methods": [
+        "GET"
+      ],
+      "name": "Zinnia_Client_Case_Manager_Api-client-case-manager_health-get",
+      "path_handling": "v0",
+      "paths": [
+        "~/client-case-manager/health$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "e5b13fa0-990b-46bd-b50f-a695ed8d86af"
+      },
+      "strip_path": false,
+      "tags": [
+        "dotnet-service_zinnia_dev"
+      ],
+      "updated_at": 1749635252
+    },
+    {
+      "created_at": 1675977731,
+      "hosts": [
+        "dev-pacl-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "16e99719-518b-409d-86d4-6a1a9fa413cf",
+      "name": "policydocuments",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/policydocuments"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "1cff26ff-1871-4042-8c45-ce9e01d6fced"
+      },
+      "strip_path": false,
+      "tags": [
+        "pacl-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1680025265
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "170ce439-3df3-450b-aad4-3df2d8548c55",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AppController_updateCommunicationPreferenceplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyId>[^#?/]+)/communicationpreference$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1702663659,
+      "https_redirect_status_code": 426,
+      "id": "17bf54ad-f87d-4fce-a68e-56d3fc86b2fd",
+      "methods": [
+        "GET"
+      ],
+      "name": "Zahara_API_Service-getVersionForPolicy",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/policies/(?<policyNumber>[^/]+)/versions$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1702663659
+    },
+    {
+      "created_at": 1724788300,
+      "https_redirect_status_code": 426,
+      "id": "1859f4db-af3b-4810-a8b9-6caaac9bd40d",
+      "methods": [
+        "POST"
+      ],
+      "name": "Policy_Service-AppController_getPolicyMetricsplanCode",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/policies/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/metrics$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "71cf3f99-a9ba-48af-89e5-aba09a050788"
+      },
+      "strip_path": false,
+      "tags": [
+        "policies-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1740417838
+    },
+    {
+      "created_at": 1706019500,
+      "https_redirect_status_code": 426,
+      "id": "18c26425-7092-4f73-a250-266263281920",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zahara_API_Service-partialWithdrawalOnetTimeQuote",
+      "path_handling": "v0",
+      "paths": [
+        "~/v1/policies/(?<policyNumber>[^/]+)/partialwithdrawalonetime/quote$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "95f2a7aa-082b-46ba-8bb3-c549f8ffc9c5"
+      },
+      "strip_path": false,
+      "tags": [
+        "_KonnectService:zahara-gwsvcs",
+        "zahara-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1706019500
+    },
+    {
+      "created_at": 1745410431,
+      "https_redirect_status_code": 426,
+      "id": "19be684a-b2bd-45d7-973f-a0347d5bccaa",
+      "methods": [
+        "POST"
+      ],
+      "name": "Life_and_Annuity_Net_DTCC_API-dtcc_v1_activitystatus_details-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/dtcc/v1/activitystatus/details$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "be863f7b-e03b-471b-8747-1c85402214ee"
+      },
+      "strip_path": false,
+      "tags": [
+        "dtcc_zinnia_dev"
+      ],
+      "updated_at": 1745410431
+    },
+    {
+      "created_at": 1742981368,
+      "https_redirect_status_code": 426,
+      "id": "1a3a850a-b1cb-4f49-8022-131e1e6b516c",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Live_ChatBot_Application-zlchatbot_v1_ai-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/zlchatbot/v1/ai$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "2e646cb8-bab0-40de-9e53-0fd84e79e2dc"
+      },
+      "strip_path": false,
+      "tags": [
+        "zinnialive-chatbot-app_zinnia_dev"
+      ],
+      "updated_at": 1742981368
+    },
+    {
+      "created_at": 1738008547,
+      "https_redirect_status_code": 426,
+      "id": "1a4517aa-0e9f-4b40-93f1-a5b1048e644b",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_MarketConnect-poc_marketconnect_contact_v1_contacts_search-post",
+      "path_handling": "v0",
+      "paths": [
+        "~/poc/marketconnect/contact/v1/contacts/search$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "20e3a661-e685-47b1-9594-5470c7044ad1"
+      },
+      "strip_path": false,
+      "tags": [
+        "marketconnect-poc_zinnia_dev"
+      ],
+      "updated_at": 1738008547
+    },
+    {
+      "created_at": 1746718421,
+      "https_redirect_status_code": 426,
+      "id": "1a6e7643-f718-4c48-a61a-792bcf93679c",
+      "methods": [
+        "POST"
+      ],
+      "name": "Zinnia_Policy_Transactions_API-partyRoleeligibilitycheck1",
+      "path_handling": "v0",
+      "paths": [
+        "~/policy/v1/transactions/(?<planCode>[^#?/]+)/(?<policyNumber>[^#?/]+)/parties/(?<partyRole>[^#?/]+)/eligibilitycheck$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 100,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "81165678-18f5-446c-8196-90a29fc421d0"
+      },
+      "strip_path": false,
+      "tags": [
+        "otp-external-bpm_zinnia_dev"
+      ],
+      "updated_at": 1746718421
+    },
+    {
+      "created_at": 1747720746,
+      "https_redirect_status_code": 426,
+      "id": "1b19e274-8169-46a5-b6ca-b69cfb031f4d",
+      "methods": [
+        "GET"
+      ],
+      "name": "Market_Connect_Order_Entry_API-marketconnect-orderentry_v1_carrier_names_bydistributor-get",
+      "path_handling": "v0",
+      "paths": [
+        "~/marketconnect-orderentry/v1/carrier/names/bydistributor$"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "regex_priority": 200,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "09e37563-ff4a-40aa-8693-a76010e40a59"
+      },
+      "strip_path": false,
+      "tags": [
+        "marketconnect-orderentry_zinnia_dev"
+      ],
+      "updated_at": 1747720746
+    },
+    {
+      "created_at": 1682613026,
+      "hosts": [
+        "dev-dlic-gwsvcs.se2.com"
+      ],
+      "https_redirect_status_code": 426,
+      "id": "1b6f8c8b-6711-460b-8cbd-9b8039a4587d",
+      "name": "dlic.note.add",
+      "path_handling": "v0",
+      "paths": [
+        "/v1/note-add"
+      ],
+      "preserve_host": false,
+      "protocols": [
+        "https"
+      ],
+      "regex_priority": 0,
+      "request_buffering": true,
+      "response_buffering": true,
+      "service": {
+        "id": "61b1dbb2-93a2-4b37-baa8-5045a258011a"
+      },
+      "strip_path": false,
+      "tags": [
+        "dlic-gwsvcs_zinnia_dev"
+      ],
+      "updated_at": 1682613182
+    }
+  ],
+  "next": "/routes?offset=fgoWDlkKGBZFU0VUEA19EV1CMWZXCA1IDU0KXRBATBFRRxhWEw",
+  "offset": "fgoWDlkKGBZFU0VUEA19EV1CMWZXCA1IDU0KXRBATBFRRxhWEw"
+}
