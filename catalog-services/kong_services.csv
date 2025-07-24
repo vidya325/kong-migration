@@ -1,0 +1,67 @@
+name,owner,cost_center,slack_channel,jira_project,product_manager,git_repo,dashboard
+analytics-data-api,,,null,null,,null,null
+background-check,Janic Lafleur-Beauchemin,55201 - MCS,"{""link"":""https://se2.enterprise.slack.com/archives/C068SF5FY3A"",""name"":""#ask-pom"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://zinnia.atlassian.net/jira/software/c/projects/SWZ/boards/9652"",""name"":""POM Jira Board"",""hasLinkError"":false,""hasNameError"":false}",Devansh Jishtu,"{""link"":""https://github.com/zinnia/swizzle"",""name"":""POM Git Repo"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://app.datadoghq.com/dashboard/by6-zum-z6e/pom-overview"",""name"":""POM Overview"",""hasLinkError"":false,""hasNameError"":false}"
+bpm-backend-for-integration-service,,,null,null,,null,null
+bpm-backend-for-non-financial-service,,,null,null,,null,null
+call-center-ai-solutions,,,null,null,,null,null
+case-management,Tanay Purwar,,null,null,Vivek Mittal,null,null
+chat-bot,,,null,null,,null,null
+ciam-audit-service,,,null,null,,null,null
+consumer-experience-terms-and-conditions,,,null,null,,null,null
+contact-management,,,null,null,,null,null
+correspondence-service,Sail,,null,null,,null,null
+death-claim,,,null,null,,null,null
+documents,,,null,null,,null,null
+documents-v2,,,null,null,,null,null
+documents-v3,,,null,null,,null,null
+dtcc,,,null,null,,null,null
+enterprise-communication,,,null,null,,null,null
+enterprise-policy,Sean Walter,,null,"{""link"":""https://zinnia.atlassian.net/jira/software/c/projects/ZC/boards/6286?assignee=712020%3Ada1b7faa-c58a-4de8-8577-0eae829da797&assignee=unassigned"",""name"":""API And CIAM"",""hasLinkError"":false,""hasNameError"":false}",Vineet Mathur,null,null
+fga-service,,,null,null,,null,null
+fine-grained-authorization-fga,,,null,null,,null,null
+form-engine-sdk,,,null,null,,null,null
+fund-information,LPS - Calculation Services,,"{""link"":""https://se2.enterprise.slack.com/archives/C06AB7MP57S"",""name"":""#team-lps-info"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://zinnia.atlassian.net/jira/software/c/projects/LPS"",""name"":""LPS"",""hasLinkError"":false,""hasNameError"":false}",Alina Perez,"{""link"":""https://github.com/zinnia/core-fund-information-service"",""name"":""core-fund-information-service"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://zinnia.atlassian.net/wiki/spaces/LPS/pages/4180803621/Fund+Information"",""name"":""Fund Information Service Confluence Page"",""hasLinkError"":false,""hasNameError"":false}"
+illustration,,,null,null,,null,null
+illustration-generation,,,null,null,,null,null
+lead-management,,,null,null,,null,null
+leads-temp,,,null,null,,null,null
+lifecad-resource-access-management,,,null,null,,null,null
+marketconnect-needsanalysis,,,null,null,,null,null
+marketconnect-orderentry,,,null,null,,null,null
+marketconnect-wip,,,null,null,,null,null
+mcs-services,Janic Lafleur-Beauchemin,55201 - MCS,"{""link"":""https://se2.enterprise.slack.com/archives/C08SQBGPBS9"",""name"":""#ask-dcm"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://zinnia.atlassian.net/jira/software/c/projects/DCM/boards/1343/backlog"",""name"":""DCM"",""hasLinkError"":false,""hasNameError"":false}",Bethany Akins,"{""link"":""https://github.com/zinnia/mcs-web3/"",""name"":""MCS3"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://app.datadoghq.com/dashboard/dg5-9c6-xig/mcs-overview"",""name"":""MCS Overview"",""hasLinkError"":false,""hasNameError"":false}"
+name-of-the-service-in-kong-service-hub,,,null,null,,null,null
+new-business,Dheeraj Kamboj,,null,"{""link"":""https://zinnia.atlassian.net/browse/CMW-6184"",""name"":""CMW"",""hasLinkError"":false,""hasNameError"":false}",Abhigyan Anand,"{""link"":""https://github.com/zinnia/otp-bpm-newbusiness-zahara"",""name"":""otp-bpm-newbusiness-zahara"",""hasLinkError"":false,""hasNameError"":false}",null
+new-business-demo,,,null,null,,null,null
+ops-knowledge-base,,,null,null,,null,null
+orion-api,,,null,null,,null,null
+party-reference,,,null,null,,null,null
+party-reference-service,,,null,null,,null,null
+policies-gwsvcs,,,null,null,,null,null
+policy-reference,,,null,null,,null,null
+policy-reference-service,,,null,null,,null,null
+preference-management,,,null,null,,null,null
+producer-onboarding-bpm,,,null,null,,null,null
+producer-onboarding-management,Janic Lafleur-Beauchemin,55201 - MCS,"{""link"":""https://se2.enterprise.slack.com/archives/C08SQBGPBS9"",""name"":""#ask-dcm"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://zinnia.atlassian.net/jira/software/c/projects/SWZ/boards/9652"",""name"":""POM Jira Board"",""hasLinkError"":false,""hasNameError"":false}",Devansh Jishtu,"{""link"":""https://github.com/zinnia/swizzle"",""name"":""POM Git Repo"",""hasLinkError"":false,""hasNameError"":false}","{""link"":""https://app.datadoghq.com/dashboard/by6-zum-z6e/pom-overview"",""name"":""POM Overview"",""hasLinkError"":false,""hasNameError"":false}"
+product-rate,,,null,null,,null,null
+product-service,,,null,null,,null,null
+quotes,,,null,null,,null,null
+rmd-calculation,,,null,null,,null,null
+terms-and-conditions,,,null,null,,"{""link"":""https://github.com/zinnia/ciam/tree/main/projects/termsandconditions"",""name"":""ciam repo"",""hasLinkError"":false,""hasNameError"":false}",null
+test-api-product-name,,,null,null,,null,null
+test-api-product-name-auth-test,,,null,null,,null,null
+unifiedweb-sso-api,,,null,null,,null,null
+virtual-agent,,,null,null,,null,null
+zinnia-aggregation-service,,,null,null,,null,null
+zinnia-case-management,,,null,null,,null,null
+zinnia-case-management-demo,,,null,null,,null,null
+zinnia-dotnet-service,,,null,null,,null,null
+zinnia-eapps,,,null,null,,null,"{""link"":""https://app.datadoghq.com/dashboard/ect-36n-jxk/etp"",""name"":""ETP Dashboard URL"",""hasLinkError"":false,""hasNameError"":false}"
+zinnia-events,,,null,null,,null,null
+zinnia-live-chatbot-application,,,null,null,,null,null
+zinnia-policy-transactions,,,null,null,,null,null
+zinnia-policy-transactions-enforced-api,,,null,null,,null,null
+zinnia-policy-transactions-enforced-api-demo,,,null,null,,null,null
+zinnia-process-management,,,null,null,,null,null
+zinnia-transaction-store,,,null,null,,null,null
+zmc-need-analysis,,,null,null,,null,null
